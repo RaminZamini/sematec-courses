@@ -4,6 +4,8 @@ import { HomePage, NotFoundPage, TutorialsPage } from "./pages"
 import { ReactModules } from "./views/tutorials/modules/react-modules"
 import { ReactComponent } from "./views/tutorials/react-components/react-component"
 import { UsingCSS } from "./views/tutorials/css-in-react/using-css"
+import { UsingState } from "./views/tutorials/state-in-react/using-state"
+import FCLifecycle from "./views/tutorials/fc-lifecyle"
 
 export const routers = createBrowserRouter([
   {
@@ -27,10 +29,17 @@ export const routers = createBrowserRouter([
             path: "react-components",
             element: <ReactComponent />,
           },
-
           {
             path: "using-css",
             element: <UsingCSS />,
+          },
+          {
+            path: "using-state",
+            element: <UsingState />,
+          },
+          {
+            path: "fc-lifecycle",
+            element: <FCLifecycle />,
           },
         ],
       },
