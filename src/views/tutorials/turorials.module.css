@@ -1,0 +1,25 @@
+.aside {
+    flex-basis: 20%;
+}
+
+.aside ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.aside a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 6px 20px;
+}
+.aside a:hover {
+    background-color: #ccc;
+}
+.aside a:global.active {
+    border-bottom: 2px solid red;
+}
+
+.main-content {
+    flex-basis: 80%;
+}

@@ -1,0 +1,43 @@
+.card {
+    width: 250px;
+    margin: 20px;
+    border: 1px solid #f1f1f1;
+    padding: 8px;
+    box-shadow: 0 4px 8px -4px black;
+}
+.title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.text {
+    line-height: 1.2;
+    font-weight: 4;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.btn + .btn {
+    margin-left: 5px;
+}
+.btn.btn-primary {
+    background-color: dodgerblue;
+    color: white;
+}
+.btn.btn-primary:hover {
+    background-color: hsl(210, 100%, 36%);
+}
+
+.btn.btn-primary:global.active {
+    background-color: darkblue;
+}
