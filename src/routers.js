@@ -6,6 +6,7 @@ import { ReactComponent } from "./views/tutorials/react-components/react-compone
 import { UsingCSS } from "./views/tutorials/css-in-react/using-css"
 import { UsingState } from "./views/tutorials/state-in-react/using-state"
 import FCLifecycle from "./views/tutorials/fc-lifecyle"
+import { TeachersPage } from "./pages"
 
 export const routers = createBrowserRouter([
   {
@@ -42,6 +43,10 @@ export const routers = createBrowserRouter([
             element: <FCLifecycle />,
           },
         ],
+      },
+      {
+        path: "teachers",
+        element: <TeachersPage />,
       },
     ],
   },

@@ -1,0 +1,9 @@
+.title {
+    margin: 0;
+    margin-bottom: 15px;
+    font-weight: 300;
+    font-size: 36px;
+}
+.title span {
+    border-bottom: 2px solid red;
+}
