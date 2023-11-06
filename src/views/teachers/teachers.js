@@ -14,6 +14,8 @@ const Teachers = () => {
           <Col sm={6} md={3}>sds</Col>
           <Col sm={6} md={3}>sds</Col>
           <Col sm={6} md={3}>sds</Col>
+
+
         </Row>
       </Container>
     </BasePage>
