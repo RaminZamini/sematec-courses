@@ -12,7 +12,9 @@ const TopNav = () => {
       <li>
         <NavLink className={styles['nav-link']} to="/tutorials">Tutorials</NavLink>
       </li>
-      
+      <li>
+        <button className={styles['nav-link']}>Dark / Light</button>
+      </li>
     </ul>
   )
 }

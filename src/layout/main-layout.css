@@ -1,0 +1,10 @@
+.light {
+    min-height: '70vh';
+    background-color: #fff;
+    color: #333;
+}
+.drak {
+    min-height: '70vh';
+    background-color: #333;
+    color: #fff;
+}
