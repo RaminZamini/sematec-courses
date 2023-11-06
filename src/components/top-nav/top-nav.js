@@ -13,6 +13,9 @@ const TopNav = () => {
         <NavLink className={styles['nav-link']} to="/tutorials">Tutorials</NavLink>
       </li>
       <li>
+        <NavLink className={styles['nav-link']} to="/samples">Samples</NavLink>
+      </li>
+      <li>
         <NavLink className={styles['nav-link']} to="/teachers">Teachers</NavLink>
       </li>
     </ul>
