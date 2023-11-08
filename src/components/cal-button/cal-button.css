@@ -1,20 +1,29 @@
-.cal-button{
+.cal-button {
   border: none;
-  background-color: rgb(80, 60, 209);
+  background-color: #323232;
+  font-family: Inter;
   font-size: 24px;
-  color: rgb(255, 255, 255);
+  color: white;
   font-weight: bold;
-  cursor: pointer;
+  cursor: pointer!important;  
   border-radius: 10px;
   outline: none;
 }
 .cal-button:hover{
- background-color: rgb(61, 43, 184);
+ background-color: hsl(0, 0%, 15%);
 }
 
 .equals {
     grid-column: 3 / 5;
-    background-color: rgb(243, 61, 29);
+    background-color: #F33D1D;
+    border: 1px solid #F33D1D;
+    font-family: Inter;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer!important;  
+    border-radius: 10px;
+    outline: none;
   }
   
   .equals:hover {

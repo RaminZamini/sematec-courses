@@ -8,6 +8,9 @@ const CalScreen = ({value}) => {
     <div className="cal-screen" mode="single" max={70}>
       {value}
     </div>
+    // {/* <Textfit className="cal-screen" mode="single" max={70}>
+    //   {value}
+    // </Textfit> */}
  
   )
 }
